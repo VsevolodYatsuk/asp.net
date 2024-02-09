@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    .font1 {
+        font-family: 'Lucida Sans Unicode';
+        src: url('~/fonts/beermoney.ttf') format('truetype');
+        text-decoration: line-through;
+        text-decoration-color: red;
+        text-decoration-style: double;
+    }
+    
+    .font2 {
+        font-family: 'Yu Gothic';
+        src: url('~/fonts/arab.otf') format('opentype');
+        font-style: italic;
+        
+    }
+
+    .font3 {
+        font-family: 'Calibri';
+        src: url('~/fonts/arab.otf') format('opentype');
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+
+    }
+
+    .font1, .font2{
+        font-weight: normal;
+        font-size: 20px;
+    }
+</style>
+
+<div class="text-center">
+    <p class="font3">Normal Text</p>
+    <p class="font1">Privet</p>
+    <p class="font2">Vsem</p>
+    <img src="~/logo.jpg" alt="Logo">
+</div>
